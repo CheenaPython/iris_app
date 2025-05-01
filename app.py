@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained model
-with open("iris_model.pkl", "rb") as file:
+with open("iris_random_forest_classifier.pkl", "rb") as file:
     model = pickle.load(file)
 
 # App title
